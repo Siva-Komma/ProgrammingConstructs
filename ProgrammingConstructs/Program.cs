@@ -11,7 +11,7 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming Constructs");
-            Console.WriteLine("1.CheckTwoNumbers\n");
+            Console.WriteLine("1.CheckTwoNumbers\n2.EvenorOdd\n");
             Console.WriteLine("Choose your Option: ");
             int option =Convert.ToInt32(Console.ReadLine());
 
@@ -20,8 +20,10 @@ namespace ProgrammingConstructs
                 case 1:
                     CheckTwoNumbers.Numbers();
                     break;
+                case 2:
+                    EvenorOdd.CheckNumbersEvenorOdd();
+                    break;
             }
-
             Console.ReadLine();
         }
     }
