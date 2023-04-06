@@ -29,6 +29,9 @@ namespace ProgrammingConstructs
                 case 4:
                     LargestofThreeNumbers.LargestNumber();
                     break;
+                case 5:
+                    EligibilityCriteria.Marks();
+                    break;
             }
             Console.ReadLine();
         }
