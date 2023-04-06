@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArithmeticOperations.cs" />
     <Compile Include="CheckTwoNumbers.cs" />
     <Compile Include="EligibilityCriteria.cs" />
     <Compile Include="EvenorOdd.cs" />
