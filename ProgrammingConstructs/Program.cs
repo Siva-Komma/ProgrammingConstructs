@@ -11,7 +11,7 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming Constructs");
-            Console.WriteLine("1.CheckTwoNumbers\n2.EvenorOdd\n3.Vote eligibility\n4.LargestNumber\n5.Eligibility Criteria\n6.WeekDay\n7.Arithmetic Operations\n8.PowerofTable\n9.SumofSquares\n10.Factorial");
+            Console.WriteLine("1.CheckTwoNumbers\n2.EvenorOdd\n3.Vote eligibility\n4.LargestNumber\n5.Eligibility Criteria\n6.WeekDay\n7.Arithmetic Operations\n8.PowerofTable\n9.SumofSquares\n10.Factorial\n11.FlipCoin");
             Console.WriteLine("Choose your Option: ");
             int option =Convert.ToInt32(Console.ReadLine());
 
@@ -46,6 +46,9 @@ namespace ProgrammingConstructs
                     break;
                 case 10:
                     Factorial.Fact();
+                    break;
+                case 11:
+                    FlipCoin.Coin();
                     break;
             }
             Console.ReadLine();

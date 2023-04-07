@@ -48,6 +48,7 @@
     <Compile Include="EligibilityCriteria.cs" />
     <Compile Include="EvenorOdd.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="FlipCoin.cs" />
     <Compile Include="LargestofThreeNumbers.cs" />
     <Compile Include="PowerofTable.cs" />
     <Compile Include="Program.cs" />
