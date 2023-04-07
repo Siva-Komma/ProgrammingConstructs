@@ -10,15 +10,14 @@ namespace ProgrammingConstructs
     {
         public static void Fact()
         {
-            int fact=1,i=1;
+            int fact=1;
             Console.WriteLine("Enter Number");
             int num=Convert.ToInt32(Console.ReadLine());
 
-            while(i<=num)
+            for(int i=1; i<=num;i++)
             {
                 fact = fact * i;
                 Console.WriteLine(fact);
-                i++;
             }
         }
     }
