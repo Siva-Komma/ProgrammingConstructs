@@ -11,14 +11,13 @@ namespace ProgrammingConstructs
         public static void Coin()
         {
             Console.WriteLine("Enter number for number of flips");
-            //int head = 0, tail = 0,
-            int headcount = 0, tailcount = 0;
+            int headcount = 0, tailcount = 0,i=0;
             double HeadPercentage = 0.0;
             double tailPercentage = 0.0;
             int Coin = Convert.ToInt32(Console.ReadLine());
             if (Coin > 0)
             {
-                for (int i = 0; i < Coin; i++)
+                while ( i < Coin)
                 {
                     Random r = new Random();
                     int num = r.Next(2);
@@ -32,6 +31,7 @@ namespace ProgrammingConstructs
                             tailcount++;
                             break;
                     }
+                    i++;
                 }
                 Console.WriteLine("\nNumber of Heads: " + headcount);
                 Console.WriteLine("Number of Tails: " + tailcount);
