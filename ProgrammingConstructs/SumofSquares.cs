@@ -10,15 +10,14 @@ namespace ProgrammingConstructs
     {
         public static void Square()
         {
-            int sum = 0, i=1;
+            int sum = 0;
             Console.WriteLine("Enter Square range");
             int num=Convert.ToInt32(Console.ReadLine());
 
-            while(i<=num)
+            for(int i=1; i<=num;i++)
             {
                 sum += i * i;
                 Console.WriteLine(sum);
-                i++;
             }
         }
     }
